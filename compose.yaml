@@ -9,7 +9,7 @@ services:
             POSTGRES_USER: ${POSTGRES_USER}
             POSTGRES_DB: ${POSTGRES_DB}
         networks:
-            - order-panel-network
+            - system-project-network
 
 volumes:
     node_modules:
@@ -17,6 +17,6 @@ volumes:
         name: ${APP_NAMESPACE}-database-data
 
 networks:
-    order-panel-network:
+    system-project-network:
         name: ${APP_NAMESPACE}-network
         driver: bridge

@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    apiUrl: 'https://api-order-panel.aregulski.pl/api',
+    apiUrl: 'https://api-system-project.aregulski.pl/api',
 };
