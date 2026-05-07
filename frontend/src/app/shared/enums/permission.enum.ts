@@ -1,0 +1,19 @@
+export enum Permission {
+    //Orders
+    orders_view = 'orders.view',
+    orders_show = 'orders.show',
+    orders_create = 'orders.create',
+    orders_update = 'orders.update',
+    orders_delete = 'orders.delete',
+    orders_mark_as_completed = 'orders.mark_as_completed',
+
+    //Users
+    users_view = 'users.view',
+    users_show = 'users.show',
+    users_create = 'users.create',
+    users_update = 'users.update',
+    users_delete = 'users.delete',
+
+    //Dashboard
+    dashboard_view = 'dashboard.view',
+}

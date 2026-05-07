@@ -1,0 +1,209 @@
+{
+    "basic": {
+        "copyright": "OrderPanel - AleX4270",
+        "cancel": "Anuluj",
+        "return": "Powrót",
+        "notFound": "Nie znaleziono zasobu",
+        "notFoundDescription": "Ups! Wygląda na to, że zasób, którego szukałeś, nie istnieje. Być może został przeniesiony, usunięty lub po prostu nigdy nie istniał.",
+        "save": "Zapisz",
+        "noResults": "Brak pozycji",
+        "confirm": "Potwierdź",
+        "yes": "Tak",
+        "no": "Nie",
+        "filters": "Filtry"
+    },
+    "error": {
+        "incorrect": "Dane nieprawidłowe",
+        "required": "Wartość jest wymagana",
+        "email": "Podana wartość musi być adresem e-mail",
+        "min": "Wymagana minimalna wartość: {{min}}",
+        "max": "Wymagana maksymalna wartość: {{max}}",
+        "maxLength": "Przekroczono maksymalną długość",
+        "minLength": "Podana wartość jest za krótka",
+        "pattern": "Podana wartość ma zły format",
+        "deadlineBeforeCreation": "Termin jest wcześniejszy niż data utworzenia",
+        "completedBeforeCreation": "Data ukończenia jest wcześniejsza niż data utworzenia",
+        "weakPassword": "Hasło nie spełnia wymagań. Powinno ono zawierać m.in 8 znaków, jedną dużą literę, jedną małą literę, jedną cyfrę oraz znak specjalny",
+        "passwordMismatch": "Podane hasła nie są identyczne"
+    },
+    "navbar": {
+        "dashboard": "Panel główny",
+        "orders": "Zlecenia",
+        "settings": "Ustawienia",
+        "users": "Użytkownicy",
+        "logout": "Wyloguj"
+    },
+    "form": {
+        "error": "Formularz zawiera nieprawidłowe dane"
+    },
+    "auth": {
+        "header": "Witaj ponownie!"
+    },
+    "login": {
+        "title": "Zaloguj się",
+        "description": "Podaj swoje dane, aby uzyskać dostęp do konta",
+        "email": "E-mail",
+        "emailPlaceholder": "uzytkownik@domena.pl",
+        "password": "Hasło",
+        "submit": "Zaloguj się",
+        "forgotPassword": "Zapomniałeś hasła?",
+        "passwordRecovery": "Odzyskaj je!",
+        "error": "Nie udało się zalogować użytkownika lub podano błędne dane"
+    },
+    "logout": {
+        "success": "Wylogowano użytkownika",
+        "error": "Nie udało się wylogować użytkownika"
+    },
+    "passwordRecovery": {
+        "title": "Odzyskiwanie hasła",
+        "description": "Podaj adres e-mail powiązany z Twoim kontem, a my wyślemy na niego link resetujący Twoje hasło",
+        "email": "E-mail",
+        "emailPlaceholder": "uzytkownik@domena.pl",
+        "submit": "Wyślij link"
+    },
+    "orderList": {
+        "header": "Lista Zleceń",
+        "addNewOrder": "Dodaj Zlecenie",
+        "inProgress": "W trakcie",
+        "overdue": "Po terminie",
+        "completed": "Zakończone",
+        "legend": "Legenda",
+        "deleteSuccess": "Pomyślnie usunięto zlecenie",
+        "deleteError": "Nie udało się usunąć zlecenia",
+        "orders": "Zlecenia",
+        "markAsCompletedSuccess": "Pomyślnie oznaczono zlecenie jako ukończone",
+        "markAsCompletedError": "Nie udało się oznaczyć zlecenia jako ukończone"
+    },
+    "orderListTable": {
+        "orderNo": "Numer zlecenia",
+        "address": "Adres",
+        "priority": "Priorytet",
+        "dateCreated": "Data utworzenia",
+        "dateDeadline": "Termin",
+        "remarks": "Uwagi",
+        "actions": "Akcje",
+        "details": "Szczegóły",
+        "edit": "Edytuj",
+        "delete": "Usuń"
+    },
+    "orderListFilters": {
+        "allFields": "Wszystkie pola",
+        "allFieldsPlaceholder": "Wyszukaj po wszystkich polach",
+        "priority": "Priorytet",
+        "priorityPlaceholder": "Wybierz priorytet",
+        "status": "Status",
+        "statusPlaceholder": "Wybierz status",
+        "dateCreation": "Data dodania",
+        "dateDeadline": "Termin realizacji"
+    },
+    "orderForm": {
+        "createTitle": "Formularz tworzenia nowego zlecenia",
+        "updateTitle": "Formularz zlecenia",
+        "orderNumber": "Numer zlecenia",
+        "orderNumberPlaceholder": "Wprowadź numer zlecenia",
+        "priority": "Priorytet",
+        "priorityPlaceholder": "Wybierz priorytet",
+        "status": "Status",
+        "statusPlaceholder": "Wybierz status",
+        "phoneNumber": "Numer telefonu",
+        "phoneNumberPlaceholder": "Wprowadź numer telefonu",
+        "country": "Kraj",
+        "countryPlaceholder": "Wybierz kraj",
+        "province": "Województwo",
+        "provincePlaceholder": "Wybierz województwo",
+        "city": "Miasto",
+        "cityPlaceholder": "Wybierz miasto",
+        "postalCode": "Kod pocztowy",
+        "postalCodePlaceholder": "12-345",
+        "address": "Adres",
+        "addressPlaceholder": "Wprowadź adres",
+        "dateCreation": "Data utworzenia",
+        "dateDeadline": "Termin realizacji",
+        "dateCompleted": "Data ukończenia",
+        "remarks": "Uwagi",
+        "remarksPlaceholder": "Wprowadź uwagi",
+        "saveErrorMessage": "Nie udało się zapisać zlecenia",
+        "saveSuccessMessage": "Pomyślnie zapisano zlecenie",
+        "addCity": "Dodaj miasto"
+    },
+    "listTable": {
+        "noRecordsFound": "Brak wyników"
+    },
+    "orderDeletePromptModal": {
+        "title": "Potwierdzenie usunięcia zlecenia",
+        "message": "Czy potwierdzasz usunięcie wybranego zlecenia?"
+    },
+    "orderCompletePromptModal": {
+        "title": "Potwierdzenie oznaczenia zlecenia jako ukończone",
+        "message": "Czy potwierdzasz oznaczenie tego zlecenia jako ukończone?"
+    },
+    "orderDetails": {
+        "header": "Szczegóły zlecenia",
+        "orderNo": "Numer zlecenia",
+        "address": "Adres",
+        "phoneNumber": "Numer telefonu",
+        "priority": "Priorytet",
+        "status": "Status",
+        "isOverdue": "Czy przekroczono termin?",
+        "dateCreated": "Data utworzenia",
+        "dateDeadline": "Termin",
+        "dateCompleted": "Data ukończenia",
+        "remarks": "Uwagi"
+    },
+    "userList": {
+        "header": "Lista Użytkowników",
+        "users": "Użytkownicy",
+        "addNewUser": "Dodaj użytkownika",
+        "deleteSuccess": "Pomyślnie usunięto użytkownika",
+        "deleteError": "Nie udało się usunąć użytkownika"
+    },
+    "userListTable": {
+        "userNumber": "Numer",
+        "name": "Nazwa",
+        "email": "E-mail",
+        "dateCreated": "Data utworzenia",
+        "dateUpdated": "Data modyfikacji",
+        "actions": "Akcje",
+        "roles": "Role"
+    },
+    "userListFilters": {
+        "allFields": "Wszystkie pola",
+        "allFieldsPlaceholder": "Podaj frazę",
+        "dateCreated": "Data utworzenia",
+        "dateUpdated": "Data modyfikacji"
+    },
+    "userDetails": {
+        "header": "Szczegóły użytkownika",
+        "userNumber": "Numer",
+        "firstAndLastName": "Imię i nazwisko",
+        "name": "Nazwa użytkownika",
+        "dateCreated": "Data utworzenia",
+        "dateUpdated": "Data modyfikacji",
+        "email": "E-mail",
+        "roles": "Role"
+    },
+    "userForm": {
+        "createTitle": "Formularz tworzenia nowego użytkownika",
+        "updateTitle": "Formularz użytkownika",
+        "firstName": "Imię",
+        "firstNamePlaceholder": "Wprowadź imię",
+        "lastName": "Nazwisko",
+        "lastNamePlaceholder": "Wprowadź nazwisko",
+        "username": "Nazwa użytkownika",
+        "usernamePlaceholder": "Wprowadź nazwę użytkownika",
+        "email": "E-mail",
+        "emailPlaceholder": "Wprowadź adres e-mail",
+        "password": "Hasło",
+        "passwordPlaceholder": "Wprowadź hasło",
+        "passwordConfirmed": "Powtórzone hasło",
+        "passwordConfirmedPlaceholder": "Wprowadź hasło ponownie",
+        "saveErrorMessage": "Nie udało się zapisać użytkownika",
+        "saveSuccessMessage": "Pomyślnie zapisano użytkownika",
+        "roles": "Role",
+        "rolesPlaceholder": "Wybierz role"
+    },
+    "userDeletePromptModal": {
+        "title": "Potwierdzenie usunięcia użytkownika",
+        "message": "Czy potwierdzasz usunięcie wybranego użytkownika?"
+    }
+}

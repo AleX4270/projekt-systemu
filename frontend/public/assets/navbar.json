@@ -1,0 +1,12 @@
+[
+    {
+        "label": "orders",
+        "url": "/orders",
+        "permissions": ["orders.view"]
+    },
+    {
+        "label": "users",
+        "url": "/users",
+        "permissions": ["users.view"]
+    }
+]
