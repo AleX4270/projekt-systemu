@@ -32,7 +32,11 @@ import { PromptModalComponent } from './shared/components/prompt-modal/prompt-mo
             }
         </main>
     `,
-    styles: [``]
+    styles: [`
+        body {
+            background-color: red;
+        }    
+    `]
 })
 export class AppComponent implements OnInit {
     private readonly translate = inject(TranslateService);
