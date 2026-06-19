@@ -75,6 +75,6 @@ it('throws when the order is already completed and leaves it unchanged', functio
 
     $reloaded = Order::findOrFail($order->id);
     
-    expect($reloaded->status_id)->toEqual(6)
+    expect($reloaded->status_id)->toEqual($originalStatusId)
         ->and($reloaded->date_completed)->toEqual($originalDateCompleted);
 });
