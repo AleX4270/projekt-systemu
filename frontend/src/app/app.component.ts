@@ -34,7 +34,7 @@ import { PromptModalComponent } from './shared/components/prompt-modal/prompt-mo
     `,
     styles: [`
         main {
-            background-color: orange;
+            // background-color: orange;
         }    
     `]
 })
